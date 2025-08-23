@@ -1,0 +1,14 @@
+body {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.carousel-inner {
+    height: 235px;
+}
+
+.videoy{
+    width: 90%;
+    margin: 20px auto;
+    aspect-ratio: 16/9;
+}

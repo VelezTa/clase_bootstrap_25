@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" 
+    integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+    
+    <!--Carrusel-->
+    
+    <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="imagenes/banner1.jpg" class="d-block w-100" alt="banner">
+    </div>
+    <div class="carousel-item">
+        <img src="imagenes/banner2.jpg" class="d-block w-100" alt="banner">
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/banner3.jpg" class="d-block w-100" alt="banner">
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/banner4.jpg" class="d-block w-100" alt="banner">
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/banner5.jpg" class="d-block w-100" alt="banner">
+    </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+  <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Descripción</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Servicion</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Sección
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Dama</a></li>
+            <li><a class="dropdown-item" href="#">Caballero</a></li>
+            <li><a class="dropdown-item" href="#">Niños</a></li>
+          </ul>
+        </li>
+        </ul>
+        </div>
+        </div>
+    </nav>
+    <!-- Texto-->
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda in odit sapiente dolores officia fuga similique consequuntur nostrum minima quibusdam iure laudantium eligendi fugiat officiis, voluptas doloremque alias tenetur facilis? Dolorem aliquid id distinctio sunt, quaerat incidunt nisi nulla fugit. Quis alias, et esse deserunt inventore minus maiores a modi facere veniam, dolor facilis praesentium adipisci, iure corrupti provident quidem animi nostrum reiciendis omnis itaque. Obcaecati, doloremque non quas tenetur accusantium vero ducimus nam ad ipsum temporibus eius eos. Quas temporibus explicabo cum, velit quisquam voluptas aperiam tempora. Tenetur, nobis.</p>
+    <!-- Contenedor principal -->
+     <div class="container">
+      <!-- Tres columnas -->
+        <div class="container text-center">
+          <div class="row align-items-start">
+        <div class="col-3">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate ut aliquam veritatis architecto accusantium porro atque fugiat necessitatibus quae expedita delectus laudantium, totam, voluptas deleniti minus amet, autem quis fuga consectetur aperiam magni nam odio. Amet earum exercitationem, veritatis, architecto quidem iure doloremque nesciunt necessitatibus perspiciatis tempore culpa odit debitis!</p>
+        </div>
+        <div class="col-6">
+          <img src="imagenes/ardilla.jpg" class="img-fluid" alt="animal">
+        </div>
+        <div class="col-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ducimus commodi consequuntur harum dolor quidem? Eum, mollitia laudantium. Nobis, assumenda.
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- Dos columnas -->
+     <div class="container text-center">
+    <div class="row align-items-center">
+    <div class="col-5">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam aspernatur nostrum laborum, sunt corporis ad, omnis non perspiciatis exercitationem nihil, atque error inventore quisquam porro!
+    </div>
+    <div class="col-7">
+      <iframe  class="videoy" src="https://www.youtube.com/embed/yneuaVjotO8?si=3-EDYwbRExqe2ZID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>
+      <!-- Acordion -->
+      <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Gabriel Garcia Marquez
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <p><a href="https://www.cervantes.es/bibliotecas_documentacion_espanol/creadores/garcia_marquez_gabriel.htm" target="_blank">Ir a su biografia</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Rafael Pombo
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <p><a href="https://www.escritores.org/biografias/258-rafael-pombo" target="_blank">Ir a su biografia</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Pilar Quintana
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <p><a href="https://www.escritores.org/biografias/31962-quintana-pilar" target="_blank">Ir a su biografia</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- tres columnas y tres tarjetas -->
+        <div class="container text-center">
+        <div class="row align-items-center">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="imagenes/logoExito.png" class="card-img-top" alt="Logo Éxito">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+              <a href="https://www.exito.com/"  target="_blank" class="btn btn-primary">Ir a la página</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="imagenes/logoEuro.jpg" class="card-img-top" alt="Logo Euro">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+              <a href="https://www.eurosupermercados.com.co/" target="_blank" class="btn btn-primary">Ir a la página</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+          <img src="imagenes/Carulla.png" class="card-img-top" alt="Logo Carulla">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+            <a href="https://www.carulla.com/?srsltid=AfmBOopFUpDeOSSpIDBaYcSFFzUtsWB-eQEkxVRFb7hZfdKT091cGDw1" target="_blank" class="btn btn-primary">Ir a la página</a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <!-- VENTAna modal -->
+      <h2>POEMA</h2>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        Leer poema
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <pre>
+              Yo quiero ser llorando el hortelano
+              de la tierra que ocupas y estercolas,
+              compañero del alma, tan temprano.
+
+              Alimentando lluvias, caracolas
+              y órganos mi dolor sin instrumento,
+              a las desalentadas amapolas
+              </pre>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>        
+  </div>
+   
+</body>
+</html>

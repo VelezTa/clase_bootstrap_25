@@ -11,4 +11,57 @@ body {
     width: 90%;
     margin: 20px auto;
     aspect-ratio: 16/9;
+<<<<<<< HEAD
+=======
+}
+
+/* Estilos para la hoja pseudo */
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.boton {
+    background-color: rgb(192, 248, 248);
+    border-radius: 15px;
+    padding: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.botones a{
+    text-decoration: none;
+}
+
+.boton:hover {
+    background-color: rgb(159, 159, 230);
+    color: rgb(121, 21, 214);
+}
+
+.boton:active {
+    transform:scale(1.2);
+    background-color: rgb(156, 199, 199);
+}
+
+#parrafo1:target {
+    background-color: rgb(220, 178, 245);
+}
+
+#parrafo2:target {
+    background-color: rgb(229, 191, 225);
+}
+
+#parrafo3:target {
+    background-color: rgb(224, 157, 202);
+}
+
+.lista {
+    list-style: none;
+}
+
+.lista li::before {
+    content: "🏍";
+    padding-right: 20px;
+>>>>>>> pseudo codigo
 }
